@@ -1,0 +1,31 @@
+.au-subgroups-search {
+	width: 100%;
+}
+
+.au-subgroups-search-results {
+	float: none;
+	width: auto;
+	border: none;
+}
+
+.au-subgroups-search-results .elgg-list-entity {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	border: none;
+}
+
+.au-subgroups-search-results .elgg-list-entity > li {
+	flex: 0 1 33.3%;
+	border: none;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.au-subgroups-search-results .au-subgroups-parentable,
+.au-subgroups-search-results .au-subgroups-non-parentable {
+	border: 1px solid #dcdcdc;
+	padding: 0 10px;
+}

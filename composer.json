@@ -1,0 +1,24 @@
+{
+	"name": "hypejunction/group_subtypes_subgroups",
+	"version": "0.0.0",
+	"type": "elgg-plugin",
+	"description": "Group subtypes for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "subtypes", "groups", "subgroups"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0",
+		"hypejunction/group_subtypes": "~1.0",
+		"au/au_subgroups": "~2.1"
+	}
+}
+
