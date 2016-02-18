@@ -16,7 +16,7 @@ elgg_register_event_handler('init', 'system', 'group_subtypes_subgroups_init');
  */
 function group_subtypes_subgroups_init() {
 
-	elgg_extend_view('forms/groups/edit/parent_guid', 'forms/au_subgroups/parent_guid');
+	elgg_extend_view('forms/groups/edit', 'forms/au_subgroups/parent_guid');
 
-	elgg_extend_view('elgg.css', 'au_subgroups/search_results.css');
+	elgg_extend_view('css/elgg', 'au_subgroups/search_results.css');
 }
